@@ -5,6 +5,10 @@ def even_or_odd(number):
     :param number: could be any positive or negative integer
     :return: either "x is an even number" or "x is an odd number"
     """
+    if number==
+
+
+
     pass
 
 
