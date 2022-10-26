@@ -1,9 +1,7 @@
 def calculations(number):
-    value=abs(number)
-    return value,number
+        abs(number)
+        return number
 def main():
     number=int(input("What is your number>>"))
-    value=abs(number)
-    calculations(number)
-    print("The absolute va lue is",value)
+    print(abs(number))
 main()

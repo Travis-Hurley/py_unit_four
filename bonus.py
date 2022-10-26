@@ -9,5 +9,5 @@ def main():
     time = int(input("How long have you worked here?>>"))
     sallery = int(input("What is your annual sallery?>>"))
     money=company_money(time,sallery)
-    print("Your sallery is",money)
+    print( money)
 main()

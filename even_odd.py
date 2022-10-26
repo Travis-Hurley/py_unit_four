@@ -1,16 +1,12 @@
-
+"""
 def even_or_odd(number):
     """
-    Create a function that will tell if a number is even or odd. Use two if statements to do this.
-    :param number: could be any positive or negative integer
-    :return: either "x is an even number" or "x is an odd number"
-    """
-    if number%2==1:
-        print(number,"is an odd number")
-    if number%2==-1:
-        print(number,"is an odd number")
+
+"""
     if number%2==0:
-        print(number,"is an even number")
+        print(int(number),"is an even number")
+    else:
+        print(int(number), "is an odd number")
 
 
 def main():
@@ -23,3 +19,17 @@ def main():
 
 if __name__ == '__main__':
     main()
+    """
+def even_or_odd(number):
+    if number % 2 == 0:
+        return (str(number)+" is an even number")
+    else:
+        return (str(number)+' is an odd number')
+
+
+def main():
+    number = int(input("What is your number?>>"))
+    print(even_or_odd(number))
+
+
+main()
