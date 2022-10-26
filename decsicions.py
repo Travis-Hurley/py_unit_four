@@ -1,5 +1,11 @@
+import random
 def main():
-    if 6>8:
-        print("Yup, 6 is bigger than two")
-    print("Thanks for watching")
+    number=random.randint(1,10)
+    print("rando is",number)
+    if number%2==0:
+        print('the number is even')
+    else:
+        print("the number is odd")
+    print("Thanks for visiting")
+
 main()
