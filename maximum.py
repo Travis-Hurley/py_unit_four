@@ -1,13 +1,14 @@
 import random
-a=random.randint(1,10)
-b=random.randint(1,10)
 def max(a,b):
-    print("a is",a)
-    print("b is",b)
     if a>b:
-        print(a)
+        return (str(a)+" is larger than "+str(b))
     if a<b:
-        print(b)
+        return (str(a)+" is smaller than "+str(b))
     else:
-        print("equal")
-max(a,b)
+        return (str(a)+" is equal to" +str(b))
+
+def main():
+    a = random.randint(1, 10)
+    b = random.randint(1, 10)
+    print(max(a,b))
+main()

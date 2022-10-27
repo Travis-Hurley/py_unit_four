@@ -21,15 +21,14 @@ if __name__ == '__main__':
     main()
     """
 def even_or_odd(number):
+    if number==0:
+        return(str(number)+" sucks")
     if number % 2 == 0:
         return (str(number)+" is an even number")
     else:
         return (str(number)+' is an odd number')
-
-
 def main():
     number = int(input("What is your number?>>"))
     print(even_or_odd(number))
-
 
 main()

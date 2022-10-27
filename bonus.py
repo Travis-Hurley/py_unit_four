@@ -6,7 +6,7 @@ def company_money(time,sallery):
     return money
 
 def main():
-    time = int(input("How long have you worked here?>>"))
+    time = int(input("How many years have you worked here?>>"))
     sallery = int(input("What is your annual sallery?>>"))
     money=company_money(time,sallery)
     print( money)
