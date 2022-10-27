@@ -1,6 +1,6 @@
 import unittest
 from divisible import is_divisible
-from exams import gets_a_zero
+from exam_test import gets_a_zero
 
 class MyTestCase(unittest.TestCase):
 
