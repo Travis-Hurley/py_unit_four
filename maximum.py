@@ -8,7 +8,7 @@ def max(a,b):
         return (str(a)+" is equal to" +str(b))
 
 def main():
-    a = random.randint(1, 10)
-    b = random.randint(1, 10)
+    a = random.randint(-10, 10)
+    b = random.randint(-10, 10)
     print(max(a,b))
 main()
