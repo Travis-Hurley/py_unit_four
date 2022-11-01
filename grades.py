@@ -15,4 +15,4 @@ def points(grade, is_AP):
     return score
 
 
-print(points(94, False))
+print(points(94,True))

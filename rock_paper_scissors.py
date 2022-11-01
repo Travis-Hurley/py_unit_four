@@ -6,7 +6,7 @@ def who_wins(user, computer):
     elif  (user==1 and computer==3) or (user==2 and computer==1) or (user==3 and computer==2):
         return "You Win! Nice Job!"
     else:
-        return "You loose! Nice try..."
+        return "You lose! Nice try..."
 def comp(computer):
     if computer==1:
         return("Computer: Rock!")
