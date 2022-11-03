@@ -4,7 +4,7 @@ import divisible
 import triangles
 import grades
 import rock_paper_scissors
-import assignment_four
+from assignment_four import kind
 
 
 class MyTestCase(unittest.TestCase):

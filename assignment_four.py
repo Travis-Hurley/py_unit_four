@@ -24,7 +24,7 @@ def multi(number1,number2):
         print("Oh no! The answer was " + str(answer_multiplacation) + " Thats ok! Try again.")
 
 def kind(equation,number1,number2):
-    if equation=="multiplacation":
+    if equation=="multiplication":
         multi(number1, number2)
     elif equation=="subtraction":
         sub(number1,number2)
@@ -33,18 +33,15 @@ def kind(equation,number1,number2):
 
 
 def main():
-    equation =(input("Would you prefer +, -, or *?"))
+    equation = (input("Would you prefer addition, subtraction, or multiplication?"))
     large = int(input("What is the maximum number you would like to use?"))
     small = int(input("What is the minimum number you would like to use"))
-    if large>20 and small>5:
-        number1=random.randint(small,20)
-        number2=random.randint(small,20)
-    elif large<20 and small>5:
-        number1 = random.randint(small, large)
-        number2 = random.randint(small, large)
-    elif small<5 and large<20:
-        number1 = random.randint(5, large)
-        number2=random.randint(5,large)
-    kind(equation,number1,number2)
+    if small<5:
+        s=5
+    if large>20:
+        l=20
+    number1 = random.randint(s, l)
+    number2 = random.randint(s, l)
+    kind(equation, number1, number2)
+    return large, small
 main()
-
