@@ -41,7 +41,7 @@ def multi(number1,number2):
 
 def kind(equation,number1,number2):
     '''
-    identifies type of equation
+    identifies type of equation and calls it
     :param equation:
     :param number1:
     :param number2:
@@ -56,9 +56,9 @@ def kind(equation,number1,number2):
 
 def main():
     '''
-    defines variables and runs kind
+    defines variables and runs the function kind
     '''
-    equation = (input("Would you prefer addition, subtraction, or multiplication?"))
+    equation = (input("Would you prefer an equation with addition, subtraction, or multiplication?"))
     large = int(input("What is the maximum number you would like to use?"))
     small = int(input("What is the minimum number you would like to use"))
     number1 = random.randint(small,large)
